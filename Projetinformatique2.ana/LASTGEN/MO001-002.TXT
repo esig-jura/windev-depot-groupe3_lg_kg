@@ -1,0 +1,8 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+TB_CLIENT		TAR	681	nouvelle taille enregistrement : 681
+TB_CLIENT	fk_type_ski_snow	RUB+		fk_type_ski_snow est une nouvelle clé
+TB_COMMANDE		TAR	27	nouvelle taille enregistrement : 27
+TB_COMMANDE	date_deb_comm	CNW	Date (aaaammjj)$Date et Heure (aaaammjjhhmmssccc)	la rubrique date_deb_comm a pour nouveau type Date (aaaammjj)
+TB_COMMANDE	date_fin_comm	CNW	Date (aaaammjj)$Date et Heure (aaaammjjhhmmssccc)	la rubrique date_fin_comm a pour nouveau type Date (aaaammjj)
+TB_TYPE_SKI_SNOW		NFI		nouveau fichier
+TB_TYPE_SKI_SNOW_TB_CLIENT		NWL	TB_TYPE_SKI_SNOW (ID_type_ski_snow) et TB_CLIENT (fk_type_ski_snow)	Nouvelle liaison entre les fichiers TB_TYPE_SKI_SNOW (ID_type_ski_snow) et TB_CLIENT (fk_type_ski_snow)
