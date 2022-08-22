@@ -1,13 +1,8 @@
-//MO000-001.TXT ANA00000 TO ANA00001
-TB_CATEGORIE		NFI		nouveau fichier
-TB_CLIENT		NFI		nouveau fichier
-TB_COMMANDE		NFI		nouveau fichier
-TB_LOCALITE		NFI		nouveau fichier
-TB_PRODUIT		NFI		nouveau fichier
-TB_RESERVATION		NFI		nouveau fichier
-ct_fk_loc_cli		NWL	TB_LOCALITE (ID_loc) et TB_CLIENT (fk_loc_cli)	Nouvelle liaison entre les fichiers TB_LOCALITE (ID_loc) et TB_CLIENT (fk_loc_cli)
-ct_fk_cli_comm		NWL	TB_CLIENT (no_cli) et TB_COMMANDE (fk_cli_comm)	Nouvelle liaison entre les fichiers TB_CLIENT (no_cli) et TB_COMMANDE (fk_cli_comm)
-ct_fk_cat_prod		NWL	TB_CATEGORIE (ID_cat) et TB_PRODUIT (fk_cat_prod)	Nouvelle liaison entre les fichiers TB_CATEGORIE (ID_cat) et TB_PRODUIT (fk_cat_prod)
-ct_pk_fk_comm_res		NWL	TB_COMMANDE (no_comm) et TB_RESERVATION (pk_fk_comm_res)	Nouvelle liaison entre les fichiers TB_COMMANDE (no_comm) et TB_RESERVATION (pk_fk_comm_res)
-ct_pk_fk_prod_res		NWL	TB_PRODUIT (ID_prod) et TB_RESERVATION (pk_fk_prod_res)	Nouvelle liaison entre les fichiers TB_PRODUIT (ID_prod) et TB_RESERVATION (pk_fk_prod_res)
-Infomaniak		CNX+		
+//MO001-002.TXT ANA00001 TO ANA00002
+TB_CLIENT		TAR	681	nouvelle taille enregistrement : 681
+TB_CLIENT	fk_type_ski_snow	RUB+		fk_type_ski_snow est une nouvelle clé
+TB_COMMANDE		TAR	27	nouvelle taille enregistrement : 27
+TB_COMMANDE	date_deb_comm	CNW	Date (aaaammjj)$Date et Heure (aaaammjjhhmmssccc)	la rubrique date_deb_comm a pour nouveau type Date (aaaammjj)
+TB_COMMANDE	date_fin_comm	CNW	Date (aaaammjj)$Date et Heure (aaaammjjhhmmssccc)	la rubrique date_fin_comm a pour nouveau type Date (aaaammjj)
+TB_TYPE_SKI_SNOW		NFI		nouveau fichier
+TB_TYPE_SKI_SNOW_TB_CLIENT		NWL	TB_TYPE_SKI_SNOW (ID_type_ski_snow) et TB_CLIENT (fk_type_ski_snow)	Nouvelle liaison entre les fichiers TB_TYPE_SKI_SNOW (ID_type_ski_snow) et TB_CLIENT (fk_type_ski_snow)
