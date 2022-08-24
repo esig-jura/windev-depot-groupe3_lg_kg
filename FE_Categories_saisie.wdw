@@ -1,0 +1,122 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FE_Categories_saisie
+ major_version : 25
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FE_Categories_saisie
+ identifier : 0x23032d7a01fa34b6
+ internal_properties : BQAAAAUAAAAeHaeqoWWxn/cME4NGoiZlyyC+HiOqP5fceAsQp7sMxO+hDVS7IEGOB/ouTciLYtQyS9E2uetl28LctUKRaborFRaK6F72ZM8DXn8Edeu1Sanlfc2/rx48xuICICUB6R9Vz40xNml4TnnEV3Ku4VEgaMtR8Cmh9prYyMW9emNDH70r29PL43Qu26PNBb3/NJS3JbGweRVe2RMSYzLJJRzETuZ1zlxqseqtlV1zHnw6RXCgCy+A1z+nyqg5hKX6HdCSwAkV1q9V0ESL4UQgDamRP0AtpcxPpnBfR2PbBE9O4NmsdQQo6XDZmH8q03HFuSSOWhX6J6naqP0Metaq8Ds2mNDe2v01XAgse6usRYGpCInazz5CPod1vMyjum7tMFcRkscsJR6wDv9YbO3eXW9KgHxtsD6hRoOR2eiqQ+/Lf0f+m1lZ3wf4CshxzITz0tb7I5W2M+vueDsHKdJtMyksaU33SnKtca6OAwaExxNXfwi7fFMXwd0g9WNc9A0PY4IbsgvBOQlBqoP+9u1h9eXyMT+VbjQuihMrpeQN5X5IpzGG7GeC3mavp9TR2Y/9py4xzkJB7FyQvFxa2uvAIpOuE/P5ep6nQcwvwuEpYDlh9gMhqEwpHS8IfqrYWCkthWwnw12nd4mcBhvK6lmAF2FuoX96Xhw8QeFtRIBJa2VFCPv9ZTMisS22iucRyhsP0Wyzkrw2GVMZmCs/xuLga+ROcDeXlreXo+seND7kL0acsZTH/m6bJ5TDQ3x0WLE3cFIfYwCrxXtJMyOpLRJ+DOm4gxdMWfyJkOJVb+uoaOv62rsTWG8n9cqL/2bxDbCB/BPc+8Bp9ccL65sQJS0J8Zs8UiFciNiTbeWlL0yISaHQy84S1QL0R99MRkeGBN8FS8K5daNN6OqpnguOq5dQYtqI5bEQpsJ7ERQ=
+ controls :
+  -
+    name : CS_nom
+    identifier : 0x23032dab0212f5f2
+    internal_properties : BQAAAAUAAADq6qNQqe+QW+FJJO5yadDDyVJMcIhwHLGdZ3cyXQ62VsVx3simoUB5/PYfy4MQ5FUBg+uN0HsWKXden61kBkhTbbO0650D9/KFxBATcdb29Ikutn5MKd8QU0KAaM4mDJnyFyFjBjGkyWktmkqWHOD45MkYlySSKgAw+zHDY+Gw+7o1oz/tJVTL6sB9+2v3Fp6P5q5l19MgR+GCg7SjJSwO5eu1Z/oZtv1QNHLnZoGqTCz7wZV/JzLi37iOdJ6suaAdDlg+IVH4qTeie1T0bbrC6ElbtJvwp2xTdKtSJg3opUu61OrLBsAbmrHp3vR+tYuV0Z5rPinkMYUyguJe6V94pDUvLI/pzhsN9SGesKH+xM4qXTpN6g3N63sooup9RQF+7k2wjf9c6hMNncvd7zqa3Qq9LeSLoFFJ0WMOvtTRWOEscXlUB0x+Tcc/XpnFA0v2T6NIZyjgFuDeWvAeMPgwIJ2B+aKxJYhvjpEytFIIfge/ahZFjrQ7vFQTKk+h1haiBXJGwudOOVVVXQNC+yzXBg7hFadQh97l2Y0EvY24D6C1udCbz1bIns8160ooF9i1W7PqDz/bHNURyb4uwIzQueACyjIicI6OW4QBNUNIkx97UDiUsjQ3zWVgKFXGv6918yOWxeyVBl4IxmeS0PJhEDfWXxvkh+aOhws1fdYSoMx4K+5mweNyAIaJoNsGkgGrLvo9XMWpDgw2Az4K35X0jYLuaiVDAB1o11AQTEnhHLtFCsdnfwy0oC+eLlf3LHZOCN5POYU9NaCmu/Vy56NTNvsQSIbnIfqNmQ2xNNw571xpIG9sz81KDm60aJMYYVOETJgMnpqfs+Ul50lFNQC8rJvDEqaSQgKuRCWPd8fe5t/HUBM5f6aXQ/fDt9nOmw6rHfdgjS9GE+qpZyjJj1XQaHqO0re3s1vBA1tU8AJLCm1ELPDQD9a/R5u1sWN50GDBOmu5F9WBcit+mDJeqdC2q1zilqYXqnG/xiJ7+izSWiszD/Ud12os/6v5Qs5G2C6ZBzUodLkFw84YGMJmxmcFnqmvFdv8vVH40kud6cbr4Wj12PIiZutKcIJWMOfP5OU9RR1OtIRKZlL+
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : bt_annuler_categorie
+    identifier : 0x23032e5f0223b273
+    internal_properties : BQAAAAUAAAB1gPdSGqOIV9XXeQDH4coNFgF9uReY1WlAdq+MTJGA50nEIMQW3/nrUdDVxS5qdjvPCKcF1Xv0PqNUNWzLpiFc/V72/n4JA0lf+Lx+uQ39HjvsO3oBTah+sjkv4O14ORt2JFJERbqfEsA2AAXYFX+pSx3yc369VVEX4mDtpWg/aQVCc380rcoT7zoYzaDpMjJOs/S7rJWojmnNGF3HoNurKVHyxWG5XHY3fA0iE4ShizV2BJPg2lF8Bd3NaBfXnskF39Itmp+D/jGKLiYNpX+J5/sJDWEXG2kFM8JiLtclv7P+4PZFRrmAHmwrAhyg85TBJO9wHOHLRnfTU/Wo0/srEF+/9IOcRYKUAeUlZVsF6XAT+V87qb+xzrtsYRoIYgZQU7ZwEQlTkrnlHcxnssCkTZn4t1JUsoS3EvLEJ+PPSemUnp7IttrAdh22zlun/VKVKbiBeyyAHRzqxLd4R/l8zSET8gVBDPZjRUWJnTdUhmk6E8F1VzRGEJz0e0sq8J4T8lwRGl5ZkOBKVuoP0tqMv1ts/LBl1mDemeOYrTSSdCe7Gw+PtRK9E8QNM9UHgCYURzozNcS/Q2S2VWJpbzEOwTUeG1ynUC5ibCFQMMP3J5iUoshZv/hyb4cT+IGxezjdEoiExJhvggp/gcgtwEgMPTr2FwXAKliPRB6VD1KorXmoAtVVHHNW20oiVpikvZ/4NRIQRg22AFnWDbTmjxC3LjnY7w==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         Close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : bt_valider_categorie
+    identifier : 0x23032e6702b4d0d8
+    internal_properties : BQAAAAUAAABtzxKfI7DuNJK+mvf705Ktk7c1ONFX5XG9gWB8mij9BLrSMw7ifV7f8W8mfOP03/KdULKnYPt5ciARQ+dijrSY1NW/emQ7Lb5RJScsV7PTOL7FGBsgTdpNP0POwZMrKmikbAFxKiAGB+QVwiK7Nphua7MvlMeWJI3P9caH8PidbWitGEGjZTnqE03uM9Kj7OSe8vgC8rdSl+lAKo6oogBzeC8idl/8WY/l26NhwDpx6b6GH/07jwpPhwvcjzS2DQRJW+0InAC7MH7JcylqsRrZWo0ZEG0uj7VPvPzlD3SCye0tfKmPQpKZii+r4DVigtRXlcYJufCzqAY2K3a3O4SX1yTNpdhxvhmqOOcBlIfJmQASG0Tl86HNwou0ZaaSphMXl0RVEDWSvC2RQbn+3s9z2B2vuPSeqCXO+BxTLCX8TOrcOa0FCuOX7iIISj+lxjto+4v9rE9hpOEBASO5LdrSshS22cp4sWwYxzqiaVZ3gWLmzu8k+/zK6Y61q2f5poa55+cJNUMjHMYLyg4TV90SoED0P08HGAFMjiDOsY5weOHo/vz4w4bnRmb54WF5Gv9M6LLKmSgpoyZVF39N/2Ee4sj6e80yDedjzGbCJ0c26FV1DyWXiU+oOjX8E923HQxrLFEXNZqz6K+RGGBuGwUtFJSYwxnHMuLbn+cwUtV2r0a2crRV97A8SD/ADX7Op9cJiyO0i7us5ipB6PdjeeO4p89t8PO/9m5rxsbe59BTdUDlov90LFxgEZURSST3Mdl7LcVhEV2UlC2BGAl/Wc7sJEgwLB3v2NHHfw==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Bouton simple
+         
+        type : 14
+      -
+        code : |1-
+         
+         //récupère les données saisie par l'utilisateur dans l'interface IHM et met à jour le tampon
+         ScreenToFile(FE_Categories_saisie, TB_CATEGORIE)
+         
+         //met à jour la table recette
+         //comme le tampon a été vidé, un Insert est lancé sur la base de donnée
+         //donne l'ordre d'écriture du tampon vers la BD
+         HSave(TB_CATEGORIE)
+         
+         //Fermer la fenêtre de saisie
+         Close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BQAAAAUAAABJgCG0FHctKjeLfM2r9yfuJFACh33Ss4gHL8CYFPWGptH733PkAG1Jjz8dvMQ3v8l6BQXAb6q2HA8jZ9aTo0hG5oYa27KuYMjR02dkgf76jLvjvaQwl40AU/y4rEaK8Wdifh4+vRSlxudvL0GQgdmdPcFvkX2tJJ5ppLw=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BQAAAAUAAABqPQh6HC8RxAVkp2SqPYLuZrfVhd+1KX4lx22hIT8uqEpE6yP7Sbc2rmVqdmL816EWzXOkEe9ijOtYwchZKAfpy3B1cNqhpJgsnbUs
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure MyWindow()
+   -
+     code : |1-
+      
+      IF TB_CATEGORIE.NewRecord THEN 
+      	//si on est sur un nouvel enregistrement
+      	Info("nouveau")
+      	//par précaution on vide les champs de la fenêtre
+      	Reset()
+      ELSE
+      	Info("Modification")
+      	
+      END
+     type : 34
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : BQAAAAUAAAAwjDLmDSZ0H1P68nJIeNfqR9EvRjU/K+sVcM1T6rhVNr+VTV1mZ/rmoweYbFDZUhBGcv8UsxlDxVCOnb2U/SQOvlGWzNby3/w/V+ppSymxv+Vh
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x13032d72000313b1
+  internal_properties : BQAAAAUAAAAa2Zm8J9E/zh+/WIrVvz1fER/So3PB0gjQuxc1xKQVWY4ZDm5lfg==
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
