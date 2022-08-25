@@ -1,0 +1,3 @@
+//MO004-005.TXT ANA00004 TO ANA00005
+vue_npa_loc		NFI		nouveau fichier
+new_view		FIC-	new_view	Fichier supprimé new_view

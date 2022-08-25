@@ -1,0 +1,100 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FE_Type_de_ski_saisie
+ major_version : 25
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FE_Type_de_ski_saisie
+ identifier : 0x23036d3c036b4063
+ internal_properties : BQAAAAUAAADvwQd1aBLquX+dtDGOPtJQstWfRx3m+okz2qAQVVE6BH0bat8j+qPWagzfGUYqx3zQ5buPca3BYEjEk5TdWdClfXpL50dlrpF9JP/cOGbYGrb1M0warH9TmbMoN3AO1hJ8cnrQLiyxFwGgFSod3Hg2MLAmB0MocrGrfXoa173vKgxFe/VkQtCyFbKQuSb7IWMgmaruwyu71H/FpbFrMBxTXmEANsk5EFAhxFW8qMdMzoGpFcDzHpOs7sfXDKrPkb18kUfynK28fFuiGrez9u8BJw94bYLCgAvtZKByijddAL6edyaBP1vVElzblEjDpeZaF4H/zBuEQ15OJ0LFGfnaVGU/A+gmZYv2X6EBdYU3IZWGdju/mFyKhE9+oH50bbLFMQqh4EtWxI/AX/zeSzyZO/mnem1FfUpCPbXEb+FPkhd7Q8qVEa7zVN+2aI43viQzFybDQSRDljhXtDpkPi1yO0A/gQQkJNgCTIxfrlpRFbJyCCrhw3aUetxZmjGxwKMIzkJqT9L8G2iMkwebtSx0fSLZQuFC6g5BJzqJWKbtxPUdUHK7qxl8x1duvPqh/nS7UC9+eSs7AUXArNC8VwvUCvsWnofiiID/D+q099NC0QISCCMJ6jXwTvPWh5ufhbarco0UcStTqop86+nTp1rNn+mR5LcKAcQKfInT6W08b7xNMle5qz0JMwuEOJXzhm3yOL/0uhH1q8SPZ7YgNa1Bu0tohBAtH7z9PPW4z5y5Gld3yz8z3mu/IWE4ac7uyFa/SrmJMTZadBq1+uw84LMmb+6M6ihMj8ZzRO3TF4ZA+FPGoNiTCvP9Cz13IPcsvp0Oxkpur5Qwc3F6J605Fcb4P8GTtIWC/pM7zpAP+/sCOkEySpa5gedJe1v3fh0xGneSy1BFTYQJdwhEAt8e/tfD+IdKc4w8oUU/
+ controls :
+  -
+    name : CS_Type_ski_snow
+    identifier : 0x230371fd04a6d587
+    internal_properties : BQAAAAUAAAD5h3dHnVF0HOQ1cayRgPCofZwhMkzRudNMh2pEr0/5+JlZGTmLR0nKUKRa8jPMdig84WkueN69VxQQmmgAjDYP8cvLYgZLiSDY+Omqko7w/CaOda1kS4ValPXG7vsVuQommj22KEd6mQC/lUTkUx2H+zX7JE0Ae4iR6c2rwR9ZAPNrsmOXuQXxinuBh06ikSC/WOZBWOZzF1NhTNWoDUWCZAXklnRJSf/Ax9sGse4ucMngEMzujg10CNNGyyZTILTgCiClvYjA63qDtGOfQa3OLEkE0NGUXLhf0iktpr1hmthC6ozVQ96pQrGUC9Tfbg9e/yy/kzJKJzblM9IUYSBUK/LDXFiBpGFRvCKP6HVhHkG/kyhV9R7mBVCeOrmgti7lRx15VyPQ06u9zGq5zC6SSDooJu93vj4Mt15XhDQFu4W4SDEHr7t1Lgdz9hKyJbdQ/mIWkbsJCrKcOHZwsmSqDM+apOFfLiOoF3j8L3GOsLSqgXxcJu//fN9pVgzV+YaCcIoF5VaCj3G32/OQZARXot1fom7HyHES5g8t+cP+Cu4vSBDhbLwRjQOvrsZXUot76e+Ho4xTzcwHI3+68Xn1c9pE56wJrLvpqfZKOfQlRL89lj0U80hi1m1AQ/3DBBj9xxPz3zuJW4EogAS045XciE/GsJUHSQkzE698eytztdiup/OuWC+hdX7H1VdRbRADZEBMlNiTGV0YL+eO6M4huXiMexeytgBBgUhnSuj8azmXLJqX/GSfrcn2CVlSX71euE5W9eLDCB3qh0r+OsLCSt8qiSjW71vQMb8anrU6bLjv5sAYlttpA0iGsWeNVlTsfKxBLksRuubnNWx3VJdPmHEtIag1vAXzJgPSQ2gzx039YJSfgGBASt85Bjn9Jk1/N799XXgwhGFDSVf/orx7bKZqealghfysIWUPeikWlQNqiqGKEAD2DE5Ar7pNpV39fLy15Ce5T/6kw7sSaz6hUkrNVuXn1qQdgr3FcB/ANUWgPYfsDOqjiXQWh65XgjJyamycQT+RSokNYYitxSafCtoASJOYPrCmrD9ZjYWa0Bc9+zSCYIq6HOnCrQvZOsR1sU7VsUafzX0oqD7A5Gr7gxxmn7lVcELUkFg=
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BT_Annuler_type_de_ski
+    identifier : 0x2303724104addf85
+    internal_properties : BQAAAAUAAACktwYDqZKZUNbOdgnc5t8yBWzQHvq7zhIRKYjgnEHYZ+XIFOzuyMDWvE0ImN3JuXZ0Mfh0PuSLwWbheH+ekVjLLpPPATvOAlzCJaNlca56c+evCllCjtd5m+gend5N7mj9qJc3DycelVFBh4KN2uR2BtBFL0+eNH8S/y2gfKMmCPK7OMAzlPNMKhdRuLgMIS/zSNn2aQJvzTDKE040MWjw+BgR1mQkrQO081avFDECfBh5F1AnuXYdHvyKIXgMXxKoiv3aAY5E86YpuxumBky25vJcLhRiiFqGajPzQ2iSGKrdhz9YodZxr68LdE7utV7/1tEgENXHUqXhozfKcVmxqo2ZjIsUdX5yZ82Tlx13qxqhAqQGZnDYseZlVkk5OV8J/L+t1N48/UR0qn3SJ0sx9tKtABmN57vupSWF7C5u2hhjkbehHU+3GURVYxQeKH+43JdmRJv92Bvdt7gNEqidbPB+AwrEjQHuxLx2hl47/+CB5ioa6s0ZVycPVKCFG7sGLUNW+72uZ3ttcZ/MDXHFfrLztYdeafrkx5Mi1dR0Wo9j8/mz2SCL3QpBIQg8uZ1uASAno9bPiyymy97r7bVPCKS2MYjzosAwejFmYLtlsZxgSqsEVKPXMBTIPxTOSCuuUw0bn/XWK7MUfjdYtUlzmn+n8jyJBf1AwWNUihdhxBA/4RQKJ4ZjtDuTJa+9mvpViv8jMRq5BVLfBrPlgCFGX+oJPg==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         Close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BT_Valider_type_de_ski
+    identifier : 0x2303724504b0ed40
+    internal_properties : BQAAAAUAAAC4AUFOVz2NHxOYcybfgOml+hWEpFhlrdWpQ3kGhU53rbSEnyQ9pb4IMI78DjwPyV6EcGXpH4Aq7OUv9wKQ9hsUinhs6NSWFvVwYoMD7Ogsdg7IYZd/F+HGZj6TaPkCZYaGfV62ITjPxSeSZkNUABwlXS69dr971RwBYPQBr1qzCi4jGpyCf1+8ycO9MtWNbY39yQcrkANDfZJG+ZhgtJ2zowXxntap0RbbzHkbpYxwCNiCmkvz/dFvYQP6Pk10/TF3m8yctZepXTvV6r4+QVoxNJVxVzRNRkpd45gIfy6SoTAzjggofavnCmfMn/zlp8rktKw/2zaJmu4r0E5aJP7pPhtm8JGqmjDo2P+lbQxJ4LbH6+fOIx+10Ti8zE10ahJ2zSnEHvkf+hKg82HGyCAQ908xjzue4J5Q5ag1fin/Bb0sjWiTfobI7wC8JbLDZ3yxmQ83zGDklXU1Cgr9nynYD0fqtlYHnmTybmlEtnHAXifkOgUoeVYM10WgJFyMTL655GkVOTxBlKE5Os+okrbkFVVJ9kUCSzCdfkV94kqmfDXFSntO61SbXNtvLNH0sQd1TPZqXM/vYvQMXxcmX1PrTnP/HdXqdHIzN9FduYWDpwBYKwsHqCe3A9POHAEHuYtGPvUDjtaD6/1SwZ9FbKwswQTZt9hbYasptJE47fdNnChUW017v7246rQb67WYO9K2htbB5fqJQe7fC6O2vZDtaNtuRkdc
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         //récupère les données saisie par l'utilisateur dans l'interface IHM et met à jour le tampon
+         ScreenToFile(FE_Type_de_ski_saisie, TB_TYPE_SKI_SNOW)
+         
+         //met à jour la table recette
+         //comme le tampon a été vidé, un Insert est lancé sur la base de donnée
+         //donne l'ordre d'écriture du tampon vers la BD
+         HSave(TB_TYPE_SKI_SNOW)
+         
+         //Fermer la fenêtre de saisie
+         Close()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BQAAAAUAAABJgCG0FHctKjeLfM2r9yfuJFACh33Ss4gHL8CYFPWGptH733PkAG1Jjz8dvMQ3v8l6BQXAb6q2HA8jZ9aTo0hG5oYa27KuYMjR02dkgf76jLvjvaQwl40AU/y4rEaK8Wdifh4+vRSlxudvL0GQgdmdPcFvkX2tJJ5ppLw=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BQAAAAUAAABqPQh6HC8RxAVkp2SqPYLuZrfVhd+1KX4lx22hIT8uqEpE6yP7Sbc2rmVqdmL816EWzXOkEe9ijOtYwchZKAfpy3B1cNqhpJgsnbUs
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : BQAAAAUAAAAwjDLmDSZ0H1P68nJIeNfqR9EvRjU/K+sVcM1T6rhVNr+VTV1mZ/rmoweYbFDZUhBGcv8UsxlDxVCOnb2U/SQOvlGWzNby3/w/V+ppSymxv+Vh
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x13036d2d001107ee
+  internal_properties : BQAAAAUAAAAa2Zm8J9E/zh+/WIrVvz1fER/So3PB0gjQuxc1xKQVWY4ZDm5lfg==
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

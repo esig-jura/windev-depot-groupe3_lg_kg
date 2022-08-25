@@ -1,0 +1,182 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FE_Type_de_ski
+ major_version : 25
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FE_Type_de_ski
+ identifier : 0x23036d240340e3ac
+ internal_properties : BQAAAAUAAACXCdx7hWWv0gV5c8reD7ombc9v7aK7J+25lfU+eLfzwL3DAA/BWkOAPPL+mxkkjwMScg3w26YAbjuPIfx2AH6hrqxA58u4S4RXFo3TqD7L7OYIyfxoHpNdS/wB1nd47hu0nP6NKLHk+ExCq7wvnttpZelrcSV0Blm8YnbC5KPROEpeDDIJsVXVD046HnsJS0BIn5EhgLnMfvFxAVrLqSEJ0s4miHkqCZ5dZeA0C9ZFr+HiC97Z1z37hXBwCnKwls8MH3dRJOVB+pGvVRAB4aAK5D9i19VI1L5PhxW1kksg359Ws+UsI8yQkaqqGQ3QtV+w0SuHvSdQor0MZ5/dXqnazEDO1aGq7Q4erCQajqpSQxq7Ez6u9wIo1c9fiUWqEIfUP7re4Kd4Be4eH/za0g8aUaOWYBe46li1s6km8h4WzS7rkMTy/D1MP/j3n2VBwtPaveezzA2lHPcRe16++/xv/XWWXrbyjnHUxGCQRo3u+jKZkQGfROAVZxq02ujzCjc7XkxD7V4m8UG5JAW+JSZNdT82ksSjS+RjagKhAna/BqHqQ8XS+8caSwNDMYQr/OvTPKkHxseT9cBj0DdZuJiVDzPcYup0jvfhP72fWT/mbTHb/bobYvz3kCRRXdd8I+osFB0WwAn/zOYs3DDXJdiJuz4bYpYT6c+KHJ1//jMQp1PYVeZN7P25iqHQ1J4taxtVdv9GLJ9KnNTsNmR2JHT3KeCSrEv/MQ6IEPVJCnJwxa2oh7HdcREtYoeliVG7iggqcTe7I36O92hPDYWfJ5OBFhMjZwhmL7mp2GxOSbthCq2sh2G0DM6Zx5ScgqhpJXy5ciB+Ckl9P2f9xI1A/L9Uo0IBvm9pTuAaBmnIKb/FwCBreSl/+G4h+pLrg0lkaiUx8vReKkxq6RluFugM
+ controls :
+  -
+    name : Table_TYPE_SKI_SNOW
+    identifier : 0x23036e3c037b2a18
+    internal_properties : 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
+    columns :
+     -
+       name : ID_type_ski_snow
+       identifier : 0x23036e3c037e2a66
+       internal_properties : BQAAAAUAAAClmxNbuwyWeLgjwSIbVNVmxHcizmvZYVu5fK6MSEgbjtufTm8KIeG5indtgl+Yxt6/b3Dm2ONznN7HZOA+A6/Z7p6gjqzd5xPoY8z2CcEEi79jY53MhRKezq20OPKx3gzVJzk4MeAojmjZFqohv4LXiJJSNXw2ktlRkUSXOkOFBxxjcc+QPtDnru6kHYs9GhGPnYLuG8nNLu9ueKw4FRV+TkVk05IaasxLC5VTQzPpN7F6lg==
+       type : 2
+       content :
+        internal_properties : BQAAAAUAAABhsmflaspBsMi5L+LPFWakbEVM8kllD1B9nnoOg6Sy0zQuUSGL+hzw1YFzoJHFGmr000u8ZuYcDgLHgHid970aT8Kcq0p4KnjLvhd9QDtAWJBQ7wOs08PEa6bY5BCOvkSOSVKXHErlaiqdaLYZCrIZmwFLePfo0RfcU3vrZUvz10sWh0HUMv750wBuBDvJZpdLGmbEzWzYq87XBVUH0Ff9dPIP+gnnZsTpe1Puo0nvdGEjVroxr85G5Wnw6EN2CDId7/MnUcr1GsgjhU0yCh38g5P7nncFkvaURBlFyN7NR/tLFxoYcneukrSPXkZsAA3+lskR0Bc5F0MAL9rdqlRVetElRitTeMqrLFspJKjQBXjJ7Ht0vI0ZwNktEJ6SubPpO/DvWn2fL3bgPtazqKPd+iqZXrnokBnFg3idJQdM4ijrqb9qtzCEp/CW+gcxmzYGv5M/cM8RWgo1gv4+E3dUUbrAlH/YdZ7QGDpfxzS9yetKulvq/MU1pBzXezFldyL3wpmeZ+hLgavD0MKv0dSUHzc++wjjta+hTHdVE7F01KjxzW/YzdQh4exIoxgnY783W1pUPAlk+7dhW9oDHOE9J/mTIgJXYeWhVJFOqgrrqrRbKXWpk2Qo+fhuiGzoXtvKyrG+Ml1RvQwTMhY0XKzvl4NzZUt4hcqaY4rGztXB+FCEpG3rsbCmDXP4TctOqosNh8VhiXQlI6HNK5dqzJFRG8xLucAInCoOVisRcMzG226v0X2hLbU9CxoZ56lJGl6B+SS/Hjrq/Wcwxs2o345wMJVKRb7l
+        type : 2
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes : []
+     -
+       name : "Type ski/snow[2]"
+       identifier : 0x23036e3c03802a86
+       internal_properties : BQAAAAUAAAA7BR1VpQidm8fWwXaBJ+acQjNiyfT7Dyh5RIBepXWOnr2KEE98aBFllDE/Nv1JRATjMeEGdxLQR3mE0t9B+LeQloiL0V7qi5aDT6wB4IA8DihiGiyZCoaV1PsLBqid6jYnVu72DI2PiymYsYAAuDxxxjPCow1loXldyUoxFhdTN3t+Mqx1PBR3YAr23VNCXhB3d8vgrw8wkSIXsX5Wf4wuIFEw+2OqCEKBdFf8PTXvObMEKA==
+       type : 2
+       content :
+        internal_properties : BQAAAAUAAACRJhukgeLE2K3K3cm+g7ZgywWdLdcfSaiy5qjO5/VFM0vVRfDHXrRfJ2CvxuV7xwSoSGr8p17Txy9n+5y2iUUHCGVxr+LafLBbmbVR43nDfDoK1z58S5UOvX67XD7tt/M4O1n3d6iCvv1hy3ZU+rqbdvo/UgscHxWe96LDf+Vi5txc4IMPCkLBYdPDjbIxjzjaHgRN3vQtCTYlrI0Dac1R5ZDhzFO0lRl4AE8h9Ujj1a8oUIZZhQpq878kkucM+abehpL+zKZHE38y0ME3Cp1JCl/4fdZ5sIWSWdjU8ucmZdVi/InhwcEnEDUDQcuv7M3gO6e6Oz+HV//2PQh+M9WHP0Yhr7bwUgk70aAxClNZTX7Ebm/IljX99GS+Me3EourmIyZTe64/rRNKZZIEZwrJEQbCdrv7xekqz/Cv8GY1stNPyDmSYB3IDvLEvpjWuFRd0dqfPvJmOBd/CMrHosaMsmQ/rBFtysxxzmwn8ltegz7mGTvU2YQ55QyDrdIkFjIQqkwyFe+2Qy7zPJDc+mGynIXPa3JIWDd6NjXxAMZrWqO1NpWAyIVNjLran8neKBEQA0+2rFq7q6Tli6AwgWTpuFU0KhS4qFeWoOnoOdNEMCm1xo+1sKuqPAQusk3RMfuXTAYiqGZsAQ15/IKHKbld4idSRbHxsqKd08bAZfbuVMmyP2HFMunWPrdQO6DZDZ04JQbP2RnWfzyzBedj36zhvLz2HXoPgUbH2dC0pATcOWXhbp7jkPCASHJrUoqvqWPtry4ihm3q
+        type : 2
+       code_elements :
+        internal_properties : BQAAAAUAAACagfBJ7gMgtDa5Fil9846TXUNu/RMWuR+pogfTwOxyJNZoqaLji1JHNpy04gYeTymQX0/92TTK//pPyu2cd+egKpKY
+        type_code : 3
+        p_codes : []
+    type : 9
+    controls : []
+    code_elements :
+     type_code : 9
+     p_codes :
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 263
+        enabled : false
+      -
+        type : 262
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : BT_Ajouter_type_de_ski
+    identifier : 0x23036ee103e9aec0
+    internal_properties : BQAAAAUAAACa42PseS+PUeXCjyt1xC/vFqlwwCZlD3MBq6s3NMVkuEf3xPvbFGkj8Z57Y3N2HJXrPy7W8K8bMTCaMgMLUXrvNWVYbUsBRQTIi8SYKDEsujvNL+1I4DrvZR1i5sGuy9vhBN3kmubTSxwcFMqefzbkooPlXK8bW8aNKmRqknUf4GPmkgJyHZ0yfIJnlAWcE1/x+uMGAXV3M5HNfIRI8ZnnhBylRQMxFKab31QGgwkengmgdkBjfafllvSLw1JM1PvMZjlCn17kud0xEeuWOgcz1vJFvhclkwiKMvtWz7fciUJdps1vHM2bk94zoWLAs0TLxnOwmqoBAZHh9jZwHTbDJPXGQGSL3oSJ1UOLcRtlGtVkCejhwBA8T10dUEefq+3ras+YMuEzfqh+1xGeqUZyS3OygoHIzehpygXErYjcjtT0PPseVvzEzp8TNex28KtiZ+vYI3qw7RPEM4Pf7qxkmzjlG2TEbH9iDHsQXLl0kNxjUXbn0EuDcqC1F5eYQrXOUYdKtPfckaejRrN0pe2XOioI7hl25U01ao8z8jNJPxJ9NjYlfgViUOmAo+6P+mBHnmAeq90KsBR0hkKRzlTcDQdKemq8n6NWKqTa1rAGLBV94kTMj+58VD5Xw4hvm7EiMu8IeT/u1Iaruuqo9YHHjql2KlfA4LgmsR4/c31ljCpX0ACKfHTzKZNaSFDzZHlxOR8gjBGEymXGA4HUn3aXAhUQJGV+
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         
+         
+         HReset(TB_TYPE_SKI_SNOW)
+         
+         //ouvrir la fenêtre de saisie
+         Open(FE_Type_de_ski_saisie)
+         
+         //quand on fait un close sur la fenêtre de saisi on revient ici
+         //on reaffecte la source de données (table Recette) à la table IHM
+         //ainsi toutes les données sont rechargées
+         //on positionne le curseur sur le dernier enregistremement
+         TableDisplay(Table_TYPE_SKI_SNOW, taCurrentRecord)
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BT_Modifier_type_de_ski
+    identifier : 0x23036ee503ecbd27
+    internal_properties : BQAAAAUAAAA6XV/NCPylkxShZbPKHLgp/ns6M7boMe8J0CHZyqV9apsr1a3ddFlfEq+t8xOrrYScOnZUhEnTakDHIWNb9tp8IyfUN4Xij61jXPhIGBaySvFwPRj66sExk2AMFMa0dF1BUCnRCb9Uz+f/ZwhsnBL1yK2TwOWc7bubI6SCXYXUr40gU3vrTPTe9Xle/Yw+Q9moovCcWsViiTY6EK5S6iJq3tMMZGEUuj2k+07PpWFLhtHG5HtFa1PclOKET9hOYlvK33rRgsNvLfxJ59pPrlAdIZZHl41S4cFO9ERKyWuaGtrCfsLC5y0HQMHD3Rs/jzk5KmBDkGDSwLFkhVnGEjGZM1IZ7NVvNnBBnXf8jHEK/2SsLeoB4fXoeKWpEqR2ar+gMCA2th4gULu8sb0LmnVSpgGlHtOrnqKaRsUaNN1VMmvOu8UmUxckW5nxQbMfqw0rfS5Oq+WPU8q4i2kWGzm4HugwCWy9D91JmtVofaAzdGErjvK9m2ibBYQt/ba5jVsvE5T8VBhveZ57ujXf5ACDDTAhFh9hz9zBQRIyWJXNdhY4zlcM7GFHNr5Z/A51Pslm3LEwdJq8ZIkEk6nXTmA5cenK84HcGJW1ZILalWfrnAijW9QqTrc6R/6xmy2t3vm9Su+y0neahRNL3oiNXnqbDQ9JahnL4C4RrabuIQTovEEY6JFfodxXA9LmplJha2wBjZScJ7IzKEYpsgUYEeMVbTN2VvFUnw==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         
+         Open(FE_Type_de_ski_saisie)
+         TableDisplay(Table_TYPE_SKI_SNOW, taCurrentSelection)
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BT_Supprimer_type_de_ski
+    identifier : 0x23036ee803efc90e
+    internal_properties : BQAAAAUAAAAaff+t6F14cM36gmIdV33ky5ilCnw2hwW7Yn5kQehuiTycrLgAEXBMN3yyJp4mJithv01T98LqrxX8Ls4mHad3kMSjqpwLDg4iJkd1o3dYBK8Av7746A/v9WoKanhu8v+j0juf361yRdmBNX6GrtRV0seFrh/XCQgaOGWuQ6G+35+aI7GVGCy+xV+weRq6jTWGqGDK/Oni7XrA0l7ccsh2eL0ANiuI0uFU8cjHLymJTtfUdOEXx7PwxGDWG44CiONojQqnTBfnmXxnSY7dMvIFawBDeWs6rXnCdtL2Z0eoqtSM1uDkO10fNOt5wflL7QVnoMABViCeNKVO+1mI0h+p7YTBmpuvUnjtIxmMBvGIc5qyPW8mfPzzd6KWDUfx2wgTwVEPzzFfc27toqze1ZJP/V4KuyhmRW0hq/odZwCa/16/pOLz4nqrIs5mtA6SGKJe1pfT0Hjm6k0pPHhRVi6tFR39Oj3sMvikUwYvMDOYiSxsv7eyBr+qFGlaWJF8ukDyzO2VZccSnP0QNyDql9ksXCU+92jIijtwvp+9N5wmz8lp/6wRizRatTuex2YSlpaNAksSnrjugOGgf2X3pqyxieUuhzV0DM1N8F5WpRdfDJhnlxDe5EFE3V8GjgSl7q/Pgrd8LC2+w92DTsi1UBL1P6/J0Le90EAXubKalbJEKte0DPv5ywR5cX4S4oZdc9iVhZwCzdBfNtChMqUMs7Nvx5PW9lE0fw==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         //Affiche un message à l'utilisateur
+         IF YesNo(No, "Voulez-vous vraiment supprimer cet enregistrement ?") THEN
+         	HDelete(TB_TYPE_SKI_SNOW)
+         	//Mettre à jour la table IHM avec les données de la BD
+         	Table_TYPE_SKI_SNOW.BrowsedFile = "TB_TYPE_SKI_SNOW"
+         ELSE
+         	Info("Suppression abandonnée")
+         END
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BQAAAAUAAABJgCG0FHctKjeLfM2r9yfuJFACh33Ss4gHL8CYFPWGptH733PkAG1Jjz8dvMQ3v8l6BQXAb6q2HA8jZ9aTo0hG5oYa27KuYMjR02dkgf76jLvjvaQwl40AU/y4rEaK8Wdifh4+vRSlxudvL0GQgdmdPcFvkX2tJJ5ppLw=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BQAAAAUAAABqPQh6HC8RxAVkp2SqPYLuZrfVhd+1KX4lx22hIT8uqEpE6yP7Sbc2rmVqdmL816EWzXOkEe9ijOtYwchZKAfpy3B1cNqhpJgsnbUs
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : BQAAAAUAAAAwjDLmDSZ0H1P68nJIeNfqR9EvRjU/K+sVcM1T6rhVNr+VTV1mZ/rmoweYbFDZUhBGcv8UsxlDxVCOnb2U/SQOvlGWzNby3/w/V+ppSymxv+Vh
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x13036d0d000e8938
+  internal_properties : BQAAAAUAAAAa2Zm8J9E/zh+/WIrVvz1fER/So3PB0gjQuxc1xKQVWY4ZDm5lfg==
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
