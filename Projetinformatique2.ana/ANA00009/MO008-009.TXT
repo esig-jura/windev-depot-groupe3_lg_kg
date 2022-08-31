@@ -1,0 +1,5 @@
+//MO008-009.TXT ANA00008 TO ANA00009
+TB_CLIENT		TAR	690	nouvelle taille enregistrement : 690
+TB_CLIENT	date_naissance_cli	RUB+		date_naissance_cli est une nouvelle rubrique
+TB_PRODUIT	fk_cat_prod	CNW	Réel sur 4 octets$Entier sur 4 octets	la rubrique fk_cat_prod a pour nouveau type Réel sur 4 octets
+ct_fk_cat_prod		DEL	TB_CATEGORIE (ID_cat) et TB_PRODUIT (fk_cat_prod)	Liaison supprimée entre les fichiers TB_CATEGORIE (ID_cat) et TB_PRODUIT (fk_cat_prod)
