@@ -10,7 +10,7 @@ info :
 window :
  name : FE_produits_saisie
  identifier : 0x23049b0a0576028b
- internal_properties : BQAAAAUAAACoOGgxMc1osy/lxTB20a7BHFzzza5XVGvjhfcSWNdl6AI2vOXl+EWeJhhQXIRypBiM2phKJO6JN3AtTCWlpV50EChQ8lzVg4hWyfAAVVFtn0C8iwlbgxgkSikSFNl/sSOTVx+iGqEYVzSOBDYC37aZdUs1wBOvct42ODlBlwpP3ZzKeN2kHP23eWOguTZZeALm95J31geQ2v2NsRvrWm4V9sgomIQm1hHXkrmQUjcADdrdeefYxJvqBIVECCUfkSHUm0MqB6giuRJQlQEKgOM+xfnVFw7+3svD6rPDVR8JxP0aOCgtT0CYwuNV7Y013g3Ed/zAVjhs98g41Il0JCZLmyrDV0Ahay/0xn5jZVtHNHsE5s9jEktTyow7nhHuXwHHkj1M8kVymPvJBNzbOdvux6W4brZ9DMOGzTMbvqEQZ+6kQfyQF8dzpuAUJ/GMs6uOuw2FB3vntHg/5OHUKxEWyitmCCeahdrtZQHdmtnP0aOpE5HUMlmEphMdN3IlNfhiNhb5MiK/wMB63Vpk7SFQPnVyxJmz8oOSiWlkbp7mC6xMW0svq0b5KuZG2EQN69D+AE//67teoM8A7WzvUskAUBNKZB/ouU54ylAO23t7yOI1BSxYYLsey9QpC1Zx9SbQI7KGefElhqddII8f8LTrDMy4s2q8jlTVqYLLLxqmmSMGL8Ta6x5lnrrH+BNqGCNXj3LbPXVOt3EIjFgMRkVtnu6vabHj4owgyf7Aoc1XLPb0fLVzDZUAl8Nu8nm+iwlncmSCnXlkXPeq88he9W45mWRWCsw7TwEJhFm+0Mrd2cfGRDCnH/Ps20+13WpW+ToQuLAcgQmkWk0zYxuZpoQPXC5G2Dcyz290v3XjYgV6qKY5VRYtSMbVvxNMYGJifFmDMx4rWFL5OL7Ed/e5/3OY6CKwkg70Mw==
+ internal_properties : BQAAAAUAAACr78ScaHoxnYeCH9TP7WxPYU4EjW7rNUcAnCWeb6kHhGAAxL35XVXA9kjb4x/Rwyr0XwTTKwb7xKf6JEpGz4GoYpyH3GvLQm/+VGFvoaCgsbS8HQ6HYLjYFK8Sp2X1lRgsyucmtoUZTvt9HqTFwADaoXuP9aAVLL0lv//SE0DlC56z+PwEVXirDZz48rkhwejtbcst0gYWO4RGCqg5LT3IENxRgQvUH353UE9lTE7gs3F5hL5yLUjRm/tRioTVfLNb0RQ2LOzflM2gYcuVxs6uMK1sasHue7laW3wfmBDB8T328JywFaHeCdBkrlPauNNfsjjVMl1TQDJszZu9u5IPQqf7w27TFb1MUvpsU2T4QVVoMwIwaKmiUKtyHPM5yt3yO4inDh6f/ymdaQkyQSCuE8SOwneBt1G4/WZAPFIY+7pwOtrvpXr4k52SrPuuMOCF5anZ61qiDlLa7uYd9DUpLPk6IaE23Or+T/3upjICbQvQZ5fjbexQdwGJLiqITiJQCT6tX7M8yN9eCwmIdJCK7DgQaP7kj2cLMbfx+ucDr6Tzz6k48H0FJTackf7Ymqj6bYkBtqprGEqc5zlJcyCEYP7qmsqDbiibuo7Lte6CXnQoVKnqFIcjy8Ps1QDeIxeXN5Fcas7iFDyp2lqefSfZrJyzfMQsahljRt31oAZKQLxsoqkEx9YCfoeSxvA41q4c9XUKxXdaiA1F9/SrutMMc0TCChXBhJmgYhstOdgkeCYHq59tq4XPQNgD8sCvYErKGTE/fUsLtu+ITJmaCXt8ZjnmApQP+dNpo9Tglb46Fsq+h3/mcM4R0o+CZoPjuHUg4Fm20zKDdoTkOSDNnzbCCMLGW+SWu6Uk9QAaxHZ6+zvJLLd6SA+3lSNULmYioLvFBRewb+YfBDLi9GX+/n4Sr8Gz4pCiByMx+MmQobufyyp80uDmArw9tNJtag==
  controls :
   -
     name : CS_libelle_produit
@@ -88,6 +88,7 @@ window :
       -
         code : |1-
          
+         //Ferme la fenêtre
          Close()
         type : 18
       -
@@ -105,11 +106,6 @@ window :
         code : |1+
          
          //récupère les données saisie par l'utilisateur dans l'interface IHM et met à jour le tampon
-         
-         
-         
-         
-         
          ScreenToFile(FE_produits_saisie, TB_PRODUIT)
          
          
@@ -121,6 +117,25 @@ window :
          //Fermer la fenêtre de saisie
          Close()
          
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : bt_retour_ecran_accueil
+    identifier : 0x2311cb6004d4c6a4
+    internal_properties : BQAAAAUAAAAzG2rs5Ks6Wr+kFpRTGjVC4B6ow/LXOzYc794l49bjzvpTm97yP4FJPDatur57YLsCY/nX/BBR4Xc0hZlcZvRohyPbvN2Z0vMFk/5aaa9HmWfjA5CXoyi2i3sCK4RjBBnFc+bIT2XSBo/E/Y3JB7BgiceXrmAkF0UGtXxDDVtfKstMCpScjBR5VJxACo8JkI9qeBrwopm6/+yXmK63YUvAGmNq7dK3j5/F753q5bmcHcoqUj1Qlc4C9BPvACPKhsDKDJ9AC1qTSeNxpl0oJjKZ98OqF36CtMLzagHn+Z5+Y4//jGHYiH/JgcQwqX9vac0iHrH3Bq2gvoZAAjZ9pa9zDWnsPhRElBCSVKJdT3ovwMg30fELAMRdWTLD00eI6WMa3wIJOXG9wBk3vGlh371nubQZxk1qibgE9QtjWUd+Fm0Xq9N4iLYKcMf2YE38LVsRyA6ugSfsivFmgGTSn2i/JXrqjUvIkCmufu+fIgHDHygu6IYYy/02DPQgKfymhtk78RyvBQpiYp1jESSN76okDNx1GwaP8L4KFWMdfLKlgBgIX8rAKziCPw6eP8we72/y26v/pm39gqiJU+jpTTIKGZgWPDzyF2w2zAxHTjCoP1tGwql+7WX7zJsf02tX+6WLMQ2N6G+TBpqtbW6EL1Z+rQguofBYNP06cyxrWRQFmcPKmPxb9/Z0gNoS
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         
+         close(FE_produits_saisie)
+         // ouverture écran d'accueil
+         Open(FE_Acceuil)
         type : 18
       -
         type : 161

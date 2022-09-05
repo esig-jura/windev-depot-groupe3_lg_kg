@@ -10,7 +10,7 @@ info :
 window :
  name : FE_Type_de_ski_saisie
  identifier : 0x23036d3c036b4063
- internal_properties : BQAAAAUAAADvwQd1aBLquX+dtDGOPtJQstWfRx3m+okz2qAQVVE6BH0bat8j+qPWagzfGUYqx3zQ5buPca3BYEjEk5TdWdClfXpL50dlrpF9JP/cOGbYGrb1M0warH9TmbMoN3AO1hJ8cnrQLiyxFwGgFSod3Hg2MLAmB0MocrGrfXoa173vKgxFe/VkQtCyFbKQuSb7IWMgmaruwyu71H/FpbFrMBxTXmEANsk5EFAhxFW8qMdMzoGpFcDzHpOs7sfXDKrPkb18kUfynK28fFuiGrez9u8BJw94bYLCgAvtZKByijddAL6edyaBP1vVElzblEjDpeZaF4H/zBuEQ15OJ0LFGfnaVGU/A+gmZYv2X6EBdYU3IZWGdju/mFyKhE9+oH50bbLFMQqh4EtWxI/AX/zeSzyZO/mnem1FfUpCPbXEb+FPkhd7Q8qVEa7zVN+2aI43viQzFybDQSRDljhXtDpkPi1yO0A/gQQkJNgCTIxfrlpRFbJyCCrhw3aUetxZmjGxwKMIzkJqT9L8G2iMkwebtSx0fSLZQuFC6g5BJzqJWKbtxPUdUHK7qxl8x1duvPqh/nS7UC9+eSs7AUXArNC8VwvUCvsWnofiiID/D+q099NC0QISCCMJ6jXwTvPWh5ufhbarco0UcStTqop86+nTp1rNn+mR5LcKAcQKfInT6W08b7xNMle5qz0JMwuEOJXzhm3yOL/0uhH1q8SPZ7YgNa1Bu0tohBAtH7z9PPW4z5y5Gld3yz8z3mu/IWE4ac7uyFa/SrmJMTZadBq1+uw84LMmb+6M6ihMj8ZzRO3TF4ZA+FPGoNiTCvP9Cz13IPcsvp0Oxkpur5Qwc3F6J605Fcb4P8GTtIWC/pM7zpAP+/sCOkEySpa5gedJe1v3fh0xGneSy1BFTYQJdwhEAt8e/tfD+IdKc4w8oUU/
+ internal_properties : BQAAAAUAAAAcY/YmymNoUMBQNuMEPjEVs9xg1Kqo5BjIEU9I4QEjhEGIq1G2iJXxC6zpRx85Umtvck6ZEaD8OJwdaYEmgSr9kMOveaNCXgsHyme4p0t7pRbwYhK7FJlgFtYsBiWfQBfHt+WZd/H2Y0+vMDwNMm/K7COgkfEL507aFzxJ0MozofJ8n0s+Pawgmr8wLA1TiCthk1/omV+rxFzJdcrtIrg8rbmm2qeGbpl9DPugar0wys1IpY5XDRz4393F/0LOVH2kobevVumNVj92D7qqE6Xch/qHX2XNOqLezI72i46bXlvW1kNO6NZ7mU1/71Iqt2VfQmCzK1VHCB7CrA9eBF6k2itfS+FuLVlhgDMjkqSV3v1JLTTE470A10FbG5jo6bc7hzoFkAICeQBNVq83mPdMEoIYCWQKLdVXBVO0TcEUT7ipYZiMU+v7/NAk5LyBkuwp+1ybZdfc6pRRNk2qshsXuudS/r12qCa5dNthiLauabPkmEBASO2jwhXckGbf+H8SJbQ9Zp43aT8IXoD8GVlnlnUFDzdz8mkIip3/rzsSU2CVGb1OFz4BbbRYBeQDdCQFi3PjpsUKA3sndoyty96EU4+bJQQUFTafHo9tsbSJ/pGLV2Fx2zpZKeH7cRYkQJlSvHbKUV1rOP5Nwc6gBRN/EPbLXeW2Z5jQ69szb5HYucyu3qa/Avn6lL2kqV3HKX62dTW6AccaCzTqMIamczs0dtQZx+lVDgCLXrp+qbTHCiBhFR4m6f0Zl7K++L8LZ77pMAADCyWLzG6Abz/GpDTX7vTtpIEytFP9U3jaL+gG39oDBhsZuow68Zap7k/ChdKwppSoVk/Cfy+J+UUAc5+6m0sIB/x7WIqoFHvsrVIvyfRMnZmEOHul8Qw8O2jUe02nS0g0LG5kqa8PzXPBi1ec6sJ2wJQ1W3yMi779AXAQ8zoaROxekm0Ewrvz9gdYExA=
  controls :
   -
     name : CS_Type_ski_snow
@@ -66,6 +66,27 @@ window :
          
          //Fermer la fenêtre de saisie
          Close()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : bt_retour_ecran_accueil
+    identifier : 0x2311cc700584ef85
+    internal_properties : BQAAAAUAAAAuc8zPNNN5W1vJEth4UAPcnoaKB7s23uCAgpAt99qHlHPz0hWU68fqi8NwQ+QigY1FGVOJmjnI5RTaveQ6+wuNvu6gQ1766irLMyylGaL2S5wLrCBLwbgDSHwg8QjWFGoYeVdAEpAKr1tRIxYjAofK3t6dOnHg/Y9bSqd/t+abIaUBY4+ccZgsPwUq1KJWgHgUclvUtAqfjqIFxqtJa4SFPWbKG/y8eRWkgaERnqowr0maTZN+enqH2WOMNmz4q7WQ/XmBYo3hVsGlxDNi/Ba5uHK9OOW00zt9VjbuXhZvl05Q5qVPFrFo3S/6n0p+yfhOI7wPtmQreavMypEWCGIgTd8yJVG3vhNf1AAGZ/nKPxyvn9zN0dBgUnbDtCcTCGJmByDkP6TNYfhtdtpdLGK8EbB1o2NBrU1DwXv09Xwns92dKyJ4T0RxIUFq3QOX3M5hgrLhDRI0tSLsHB9KYJUQHwgMeAUFgFDXNh3woCzKeih2jNs+zjcLf0z0kLZpefw3LYhoD3H48W71qxlvZGu5uljbMF4GFv1/fzMEpjEQY57LvpBl77cQh4MHqSsYUSf1oNKV0+kcMC1HWDvF8J66W7FZS0QuGJZFMy/6IoKbep+w1PbPOcWBXoJSHGKAPsILBPwbW2XDgWTuRyIoNXLg2I5ehtiXyqqN20wtS5/YKffDBRmGcewlBDw=
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         Close(FE_Type_de_ski_saisie)
+         
+         // ouverture écran d'accueil
+         Open(FE_Acceuil)
+         
          
         type : 18
       -

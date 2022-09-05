@@ -10,7 +10,7 @@ info :
 window :
  name : FE_Commandes_ajouter
  identifier : 0x2308ac680842b93f
- internal_properties : BQAAAAUAAADhTHbZllZmdjhFxsb5Z+UInhdNzdDbzMatKVrnHoB3+wrI9KUYwR5FodL928yZBHW1kWUqW6Ez/4oMW1iPH451A0CetCygNnfn2jVuN50pmycHzX0l8fgMLjJ0mgdbee0jBcn9AE8umrkc8dg0m+ws1hBlbJc7aKr4MKt3PP3Pze/d28vVMUKe9x/P01st0CLdAw1sE4NUFX9+1bQLrygSMESN/rp029LZma/RrPrar3KeYxceqWnrphyXBhckifYYbqXRFAkXCfDrasZYpV1LbK2deaWMrATjn5WdTpGOLhtmsQAi765pgE98DQufBf6kWJVSTWM0+PlogBzwjqO8dh5yZrvnzlBUc13eh8NFUkdUh1YcdK2dSIgFVGj3NCG/7F/841giyS0G/2jpToJNc/ss3xei56LKunfRGmSCRv6PbrknyYnMzqyrbsbdFtCJ4QnCDemE1FN387y0PJiDaIwgkT9AWtsl6ldrzjzCyi8aTSLMBD6DqMY/gWLCvmd2Db7+9nwG4colrT4S/EpzqP7WnQE5YxzCPGWMxK+TUqR5efpnec9Y3ps6cDZmvsWYfYPwPas1lR8dLx5j3/5ppg5+hYdW8iGKbS6sU/68qX7snVcqZHDNPemZn3D2vAdaNpPeVlS0r0BJB7zh/2UaWrDJ7w9hLCiCWYOOwGQ6LYQG/FyBAiBhb4xEl7iOKu14lx9DBLB4Bxissb/FVulDhQzi24qMXmJP9X3l+PHpDkl8meMSqCPmRE1DwZoKDcfQlDfkmOil23EAaiVpHWA3Gq5tSIEMGW8gOhBLe6DFPRb2pYIQ/O+gOjE+sCNiq0pPdjXUkgqICIY7wogc7noD/VypGzEC4ri0LkWXmCySDr8LqvWN7njnLX5NfVC0GhNopFIeGbl68V5R7lQVrRFBPAj/t7NK4mc=
+ internal_properties : BQAAAAUAAAA7k3qts8xsiLehYM05chepsp2vHTL2dvuozD6rVVESNpaYK34YVi+Nn3/YzXC19nbXj9D9LIK2dqJVPtNY9mEBltq1VvbW385MdzBLbtXM5pJG/QProu13HYJlGOP9q0aPy7XN/X96cgtTdz/4elI11Jf24uKIPWzl68mmO386lgP7Q9sTjsAcgtzpB8ewDlYb7L0E49BXdmLC7nnNBBF1G1BzQVaxkN2uWdt+DsROPmTqMLi06vakW3wBrVaBFkHzEXHk3wr+T7DT0Z4smCD8rF5HeC1tb9Y/S8ruMKkGWoeYNIOnjS8HK9mvmbr56no88nroHPF/BrS5pbUlL2zKKEh0lKmWFp4Hh5EPl05cPbNXxad7R81lAYjPT2Qdj+n3boOknLnDYjNIOCoxzuSpMwFwqRIQL7rVSHjVUQd2jcXRonH5bBg/Bpx2riqZhAsOgWS0l3w+v5o40Gq5T+93UD0YWMMd+2WfjU2Y36nkogv1M4uCrQ+HdBnP5Knp+tXIUOQ5fgWfz7CCuUVdT7In/OXWCsM+gOCSc/9TV7oNJpSYG5mh6FKaeoLOdXffgs9MFrETSzRut2dOn0fgTOqjrl04GKeH+w26dmj7Nq2C1ypv4sFRxth4ltfOG185Q2Bl6EvhngMK4op2dX3wzyx/b+z9Dl9jy7jUjNkQLqaFtORqSwBhyyuD4cS98rORfQIzabBAzo1Zh/HSZrDKe6cIqf97K5kgNKJT182HzHDwQmaJ68n0mJ5TAs9SwxYmBR/oE+R1t5GNVGqDzFwgoW/uzM/+6W2g988uoeXwLLxuj4Pg6j70BCtqVcXUMly5Oe8PzxC98Ndd8QR/Iu/tcLrd5Hxw9GUw0TubcTaYfFIdzfGMCPGcAPQUOZYBvENxpBA/EkdMGwN1RXHodWfHpVaHoQwxiOeygUV4XxpTN1HQagErGqNPhxvZ8w==
  controls :
   -
     name : CS_date_deb_comm
@@ -118,8 +118,11 @@ window :
       -
         code : |1-
          
+         //Donner comme paramètre à la requête la combot
          Requete_VRAI_categorie.parametre_produit_categorie=Combot_categorie_produit_ajouter_commandes
+         //Exécuter la requête
          HExecuteQuery(Requete_VRAI_categorie)
+         //Affiche et rafraichit le tableau
          TableAffiche(Table_produits_commandes)	
         type : 33
       -
@@ -269,45 +272,54 @@ window :
   -
     name : bt_ajouter_a_commandes
     identifier : 0x2308cd750fadd3d8
-    internal_properties : BQAAAAUAAAC13YrWKKRfG4PfReJB5/g/zMTFh5qzTAzV124yp0KdlaK0kPbC7UtjQnhIRV4VoN+VMHHJJAq3Zl9+hTPZlecIMol++hvVF3DqQqA11qcBPqtYlHCIgGxp76pqWoTmq99Feg8QpKaFLH8eOn0YYD/zNLcbhmaUlSf7QFNXdTxh32hfChhwwQo3PJ15Gdri7MUGhNQg3x07Frcf0g7+UTW2SgLV96VVX89Lhe3kc6mBO1z27knl2yXCPxInF+lxaDmRyoOVaOUdzGZsXv6ifZMIl4RSnQHvSSlbJFmTkVoARxiEyGVElJd9mWzYtmvO8urym74bO5pJpsvFbjoQ1Bpx85PGz4dJxCGpXWreYtwmVMq+Q2dJs4oP7iRja6cnnA0Vj5aUf+YVTXz4n+U4Q5Bqktctl/nOxTbKhAiS+nGo7eTG9/xDVXcXzBINDtW0p+zwpnD0zNq7hZJo2r+ExJtszjdWQh6DbOJ2f3vzEEq7/tkIjJ5SEH1BRD2TPLdUiKDMqo9OhYNUixuI/PHAQxm9JDzs826O4nn6aMX78wR9VoimUl7dTTRXFfDVuF4hiuBWwOBbe6JQYs02dR6H0i0cOUYiNDndlWnFsOpZ4PxNB9WKtHBqTTDO9DMVXl3V/NsSX+mLTxBDGcwwnOU3GsG6zGJmBTswv63P6CfcSVF0k2ywCh7hQAWKWy+zOVC6WATyo/NlCLb80g46MyIZl8z7RcZL3Od+JosV+uxnwwbw20+TFCev2korweGnyMYIU7xcvwh5zGg/liPvWNqb4XZ8oLvl+OzPvh0cbT+0LzSTiprd0SuRPHJEN+OeEZhiw3KDkq4=
+    internal_properties : BQAAAAUAAACtYW+d5N9MH7oqH8VwmwOaf0QdcKa9JQtSY11kEtUe5WQZ10M0x19bwUhfl5V234kG7/cz6vLb8m0sM9o/uYn7jt92OusLps1RktpfMuf5PZ5XjZKzzlwfjhpY13zp/8F3LOCwXni2gAXqRLch+fMVvXBN8FyVwXmjw2G59rebb7PPGIfWDd4Uz77QRLPpML9CfwzEP6w1WvOA/PQ1rzk6T9FavuWUNHNP9E0thPMjB7e/J/86uNUklex9vJGDVrTL+RYKcWt34HNUTZM+xOA+UDL+k30W1fZshrj9CkzFLbLPSUgKxs0efbBOXbr+w/JsdEaRKz0Dz9ydA06og+8YWC6mduXmozoOJ3+QB2EUNwH9f45bIIOu0Fdr91zPUop8iC7/9A32la+93cUwWjbp4jOCHIRESuR+ZUfPnZ8jygOICB9qzxYGNI3HZEcwtfGj3yEv5yWZWIYOnV04a5tX1TfpJ1oaKaHmaajAfNRc8A/UyoGo6vvUR/biVVcF23M+dSek0eNqEOTJbtrmDorjQA0c43wqU/PkSa06zsGAH2hV32d6EVf1IRJB97tB4FtQlXOh83/0P/M7kaOVGyNtfbagh8stirNfDcjYXqh+teBQrZfp83rGngf5zQRFdfzZQ4CKDrgNEL0vhDkUYJ0i+5sA5sDK+10WpySM27z2AD2A6IkKdJi9Cp6KfvgWCpWVoMkMumPqAj0o49+Ptzg8U0ZxSyb2va8FcARQ7aQ4S3YfwWppILk2D6S82ptUmJ8=
     type : 4
     code_elements :
      type_code : 4
      p_codes :
       -
         code : |1+
-         // Version 1
-         // Description 
-         // Bouton simple
+         
          
         type : 14
       -
         code : |1+
-         // Indice de la ligne sélectionnée dans le champ "TABLE_Produit"
          
+         // Indice de la ligne sélectionnée dans le champ "TABLE_Produit" 
+         
+         //Test pour que la quantité ne soit pas inférieure à 1
          If CS_Quant_res=0 THEN
          	info("La quantité doit être minimum de 1")
          else
          	
-         	Blabla		est un entier	= TableSelect(Table_produits_commandes)
-         	Blublu		est un entier	= CS_Quant_res
-         	Blanblan	est un entier	= CS_Rabais_res
          	
-         	HExecuteQuery(Req_stock_restant, hRequêteDéfaut,Table_produits_commandes.ID_prod[Blabla])
+         	//Indique de quelle ligne on parle et le charge dans un entier
+         	Produittt		est un entier	= TableSelect(Table_produits_commandes)
+         	Quantiteee est un entier	= CS_Quant_res
+         	Rabaiiis	est un entier	= CS_Rabais_res
+         	
+         	//Exécute la requête pour savoir si le stock restant est positif
+         	HExecuteQuery(Req_stock_restant, hRequêteDéfaut, Table_produits_commandes.ID_prod[Produittt])
+         	
+         	//Lit les données de la requête et les charges concernant le produit qui correspond à Produittt ci-dessus
          	HLitPremier(Req_stock_restant)
-         	Req_stock_restant.pk_fk_prod_res
-         	Req_stock_restant.somme
+         	HReadSeekFirst(TB_PRODUIT,ID_prod, Table_produits_commandes.ID_prod[Produittt])
          	
-         	HReadSeekFirst(TB_PRODUIT,ID_prod, Table_produits_commandes.ID_prod[Blabla])
-         
-         
+         	//Création de la variable soustraction (entier) qui nous permet de calculer si le stock est insuffisant par
+         	// rapport à la quantité que nous souhaitons mettre
+         	// dans la réservation (quantité dans la base de donnée - quantité calculée qui n'est pas rendue - quantité 
+         	// que nous sélectionnons)
          	Soustraction est un entier = TB_PRODUIT.quant_prod - Req_stock_restant.somme
          	
+         	//Si le résultat du calcul ci-dessus est inférieur à 0, afficher que c'est impossible
          	IF Soustraction-CS_Quant_res < 0 THEN
          		info("Impossible, le stock est insuffisant")
          	else
+         		
+         		//Sinon, afficher combien il en reste en stock
          		info("Le stock restant est désormais de ", Soustraction-CS_Quant_res)
-         		TableAddLine(Table_affiche_contenu_ajouter, Table_produits_commandes.libelle_prod[Blabla], Blublu, Blanblan, Table_produits_commandes.prix_loc_prod[Blabla], Table_produits_commandes.ID_prod[Blabla])
+         		TableAddLine(Table_affiche_contenu_ajouter, Table_produits_commandes.libelle_prod[Produittt], Quantiteee, Rabaiiis, ...
+         		 Table_produits_commandes.prix_loc_prod[Produittt], Table_produits_commandes.ID_prod[Produittt])
          	END
          	
          	
@@ -353,7 +365,7 @@ window :
          FIN
          
          else
-         
+         HSave(TB_COMMANDE)
          	
          	HExécuteRequête(REQ_suppression_articles_commande, hDéfaut, Variableajoutermodifier)
          	
@@ -497,23 +509,6 @@ window :
         type : 224
         enabled : false
   -
-    name : CS_Rabais_res
-    identifier : 0x230c86f805bdd612
-    internal_properties : BQAAAAUAAADGZmAF9esU3IXUYG3vd97q2GXuC1CdZtvxlHSJB1Z7hUlS7pxWxyzvAlk6ETBI1ldRZWom4CFcIkl63iIKKFAQ21mV7xrE9RYBEKmLTsOTISKGMoNQSetAzn8EnxFOi964zYUe0LLQ7B9RbqobBCkwspM8bR6bdvKw+hhv1jtwnACZqE1FFEtqLEM9n0FSYCcSgLNIwhBfYgo/4C6IQkL6o7dhk1crZtBfiSEYpFoGBmyZJd+QsasuWOiXsCaNsILbwmmHtX5siI6XhjObrAF3L/tatDbFpV3HjRzJ/HvfWISCrgD4FNQ/bXhQgk+C7C5JkyWiJoHjS6PKX/s0heLO4rQKyDn/YU0PVlQQ9iyRfCrkap57lbzpgBNtVQfmvoOFY6PXgf2Q4Hm/6UOnisTXI5nMXLxUnDdUn/v5VgF5/5Ytn5ktaLW7CdwUQmfVJlsUmc9rsvy9DC7JVy2bwwR3y7IvTlLP3Il3ZX7e/jUKI+QMxPKDOw11DLbRUqTIawSLcUpXgy9i27Ft1LCNW2pzcapChLDtRz/xlZlZP8MxWVKnxosKA+2EdGzT1eKVyc4/9n1uUBB8Dm1ALVxSyAlQxhb7U1skG8+XEO4kbzIZx3tcaO5lEn6OrK885Tje3UVYU9pQyIvNbCjhI/HirDA0uJjZQcGp7E/ebdLWkPNGv7JLtgxL6TrZDkB+q1pj2nn3cueeJoA6zgsKKZWv6/r69xRfYcCj8UP37tzXTlOj96hkHr2Ehf8YyQZY1YnRcE+zU0aard6LrTsdWcBf1lD/mKb+uxZK0Adb8a5ha9HUgI4b3UNvGbTdiCZx6Kr9qKqleSvIl4LOLmXbcAFgHmOYJgzTLaZP0dSWseZ1btDALD+F0o1LTr+fkqIeAhC+j9DFZAkaS5j37cUXyzq0V5ZfwpYq5uVN7/X4QECTIdTYl1uR+HPRstLKek0ouM8G2+Vctvkqyf7/UavzPglgaRhpw09x5Idx4hUAGbQ1WaDxqOngXnktnoFRZef4Bqp5z9L1vhHQ++ReIKbhqDRtnhwxOm5zGIzfdd6Ugaijn63lWIk0BZ4tfvxHfU1tZ3NrI6ORSIy4LAaghG4=
-    type : 2
-    code_elements :
-     type_code : 3
-     p_codes :
-      -
-        type : 276
-        enabled : false
-      -
-        type : 277
-        enabled : false
-      -
-        type : 278
-        enabled : false
-  -
     name : Image1
     identifier : 0x230cbb6209ad94af
     internal_properties : BQAAAAUAAAA8MBWeJcsS/jGbSIm1l0oerrhwm52nWEmT8Tt5Qs92vxBo7XRxjA2DsCeQXnQVvJ95VjBVCVU/kx+TE5/EDIHFZsuu435KEnGrzRMSPkKo/6nZDKxvzbWit80sdNAsZIKCUn+g6A1qf59cbJIFaS7pr2z/Z1MgtOk1UToNoAx/5h88si/cuP1Rp3nUqhqSOHJAzKOPJ36ND8xsudVlHPme3TPrxmp3LncUge80AciRpxWyKkHRyQm9Ip+5fcLQNYeZWVvHHjWWK6aamrkCsSYelPARmaqt+XFCE30qjpvn/HDjzD6WxyqTPi85UqQ5UXK/3Vhw+EPZgFlU7fvfIRgDY343XAwCrpsjucTRLKWeFfCFVHypbMF1AzdD73smM3JXpcrC0PnjwV1VtlySyWKk8yKVIYfp6hYXXAqm3zpzpbSOdIQQj3kpD19e3DWE3u0v4wxsQ+McL1MOGDmTB3w35TT3UaTGRWs1c8CUHt6oLGzpHt/k/W8/FWhnDrRRrUMk59cc0Tk1rt0KDusPpgShkNBya3/Akb2WEyR9xXG4mLUptxDyKoN0ov2//PMnE7CSafSVww/Iik87EylPuM7f3BDOfQyYcQ3dvXt0sM6j10V6R4+vD1HDY0urBt6GnDbNVJ+y76E6AMEhQePVXM8HjOsgje5Mp3+dIWXkPTkBY0RBdmuB1wIJXGsCn4JPi29f7aVd1sD3XDVX/e0SUplebT9mruka9j1nDe5In075LooLQeKn6lHZMVeOKQWcHexB/2VPQLocBVY6Lvkm6srDpIDbcFTYM//8mw+Fq9E/j+PwxQqGVBW3KXU8KwfQwuh7zOZIlDSRUKN85qh98a62cV2yTL/IoBowtCEjH2Cf8sa20AJUexgzpZQlahJj+2mVhhuQdAL412B/YUcVl0J9TaW5vg==
@@ -550,6 +545,43 @@ window :
       -
         type : 161
         enabled : false
+  -
+    name : bt_retour_ecran_accueil
+    identifier : 0x2311ca6903f403b0
+    internal_properties : BQAAAAUAAACXP07A+F8O5JqFnPJhmKvQZgDenYiduZTuffVTiTShHHDVEZh4VfeHtqQbIDxxjpmYpZ+5AiYHl/FSKy/alAoO9X1xHiHzR5lrR4i7okQ9e/QH34Wvqg6hCseAFlQp44pZ+3Zh9jwN7oD0z2BnpzCgqUeXLgAE9wVGlTwjDTtfqquMypQ87LS5FDwAKk+p0I8KeBrwwvna/yy3mE53wcvA+qOqLbIX75/FTx2KZVkcXarqEj3wda4CtHOv4ONqhkAqzN/Aq/pzSePRpr1oxnIZF8PqV15iVEJzisEHub7+4++/DCG4aB9JweSwCX/P6U2CXvF3Jo3AfkaggpZ9he8zLWlsfvS05OACxDKtnwrfEJjnYQG78NTtCWITY9cYGTMqj1JZ6WHNUMmnzHlxr203ySSpVr0aWYi0ZZvzKZeu5r1Hu+Oo+EaaIHfGsJ2MnWvhON7+8Rf8GqGWUDTib1hPNWo63bs44Plerj+vspGzLzheuNbIu80GPKRw+Qy2tilLYaw/NfoyMo3TITSd/5q0HAzFa7Y/gM56hXNtjIJn5QeVQ4jV811MAeQ4/CSEcSTtIMU2V7Nl5QfwzWireEqH9Dmlf47C+d6sQiIJGFbCpfHcaHOgsx81OnlNTZ01pYNZh9v/Om2lmLi7a0hORbhsi26kO2oWJm+Y4Sp1Uxp/B8GR5uBn49pYpL52
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         close(FE_Commandes_ajouter)
+         
+         // ouverture écran d'accueil
+         Open(FE_Acceuil)
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : CS_Rabais_res
+    identifier : 0x230c86f805bdd612
+    internal_properties : BQAAAAUAAADGZmAF9esU3IXUYG3vd97q2GXuC1CdZtvxlHSJB1Z7hUlS7pxWxyzvAlk6ETBI1ldRZWom4CFcIkl63iIKKFAQ21mV7xrE9RYBEKmLTsOTISKGMoNQSetAzn8EnxFOi964zYUe0LLQ7B9RbqobBCkwspM8bR6bdvKw+hhv1jtwnACZqE1FFEtqLEM9n0FSYCcSgLNIwhBfYgo/4C6IQkL6o7dhk1crZtBfiSEYpFoGBmyZJd+QsasuWOiXsCaNsILbwmmHtX5siI6XhjObrAF3L/tatDbFpV3HjRzJ/HvfWISCrgD4FNQ/bXhQgk+C7C5JkyWiJoHjS6PKX/s0heLO4rQKyDn/YU0PVlQQ9iyRfCrkap57lbzpgBNtVQfmvoOFY6PXgf2Q4Hm/6UOnisTXI5nMXLxUnDdUn/v5VgF5/5Ytn5ktaLW7CdwUQmfVJlsUmc9rsvy9DC7JVy2bwwR3y7IvTlLP3Il3ZX7e/jUKI+QMxPKDOw11DLbRUqTIawSLcUpXgy9i27Ft1LCNW2pzcapChLDtRz/xlZlZP8MxWVKnxosKA+2EdGzT1eKVyc4/9n1uUBB8Dm1ALVxSyAlQxhb7U1skG8+XEO4kbzIZx3tcaO5lEn6OrK885Tje3UVYU9pQyIvNbCjhI/HirDA0uJjZQcGp7E/ebdLWkPNGv7JLtgxL6TrZDkB+q1pj2nn3cueeJoA6zgsKKZWv6/r69xRfYcCj8UP37tzXTlOj96hkHr2Ehf8YyQZY1YnRcE+zU0aard6LrTsdWcBf1lD/mKb+uxZK0Adb8a5ha9HUgI4b3UNvGbTdiCZx6Kr9qKqleSvIl4LOLmXbcAFgHmOYJgzTLaZP0dSWseZ1btDALD+F0o1LTr+fkqIeAhC+j9DFZAkaS5j37cUXyzq0V5ZfwpYq5uVN7/X4QECTIdTYl1uR+HPRstLKek0ouM8G2+Vctvkqyf7/UavzPglgaRhpw09x5Idx4hUAGbQ1WaDxqOngXnktnoFRZef4Bqp5z9L1vhHQ++ReIKbhqDRtnhwxOm5zGIzfdd6Ugaijn63lWIk0BZ4tfvxHfU1tZ3NrI6ORSIy4LAaghG4=
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
  menu :
   name : _Menu
   identifier : 0x292573e513b5f221
@@ -574,12 +606,12 @@ window :
       	
       ELSE
       	// en cas de modification du produit
-      	//	HExécuteRequête(Requete_amener_produit,hRequêteDéfaut,numproduit)
+      	//	HExécuteRequête(Requete_amener_produit,hRequêteDéfaut,Variableajoutermodifier)
       	//	HLitPremier(Requete_amener_produit)
       	
       	
       	
-      	//recherche et charge l'enregistrement dont la clé primaire vaut le contenu de numproduit (charge le tampon)
+      	//recherche et charge l'enregistrement dont la clé primaire vaut le contenu de Variableajoutermodifier (charge le tampon)
       	HLitRecherchePremier(TB_COMMANDE,no_comm,Variableajoutermodifier)
       	//affilie les champs de saisie aux données actuelles
       	Combo_client	=     TB_COMMANDE.fk_cli_comm
@@ -590,7 +622,7 @@ window :
       	HLitRecherche(TB_RESERVATION, pk_fk_comm_res, Variableajoutermodifier)
       	
       	
-      	//exécuter la requ REQ_modifier_afficher_contenu
+      	//exécuter la requête REQ_modifier_afficher_contenu
       	HExécuteRequête(REQ_modifier_afficher_contenu,hRequêteDéfaut, Variableajoutermodifier)
       	//charger la table avec le contenu de la requête 
       	
@@ -598,7 +630,8 @@ window :
       	
       	POUR TOUT REQ_modifier_afficher_contenu 
       		TableAjouteLigne(Table_affiche_contenu_ajouter, REQ_modifier_afficher_contenu.libelle_prod, ...
-      		REQ_modifier_afficher_contenu.quant_res, REQ_modifier_afficher_contenu.rabais_res, REQ_modifier_afficher_contenu.prix_loc_prod, REQ_modifier_afficher_contenu.pk_fk_prod_res)
+      		REQ_modifier_afficher_contenu.quant_res, REQ_modifier_afficher_contenu.rabais_res, ...
+      		 REQ_modifier_afficher_contenu.prix_loc_prod, REQ_modifier_afficher_contenu.pk_fk_prod_res)
       	FIN
       	
       	
@@ -625,4 +658,4 @@ embedded_elements :
  elements :
   -
     name : FE_Commandes_ajouter_1$Requête
-    internal_properties : BQAAAAUAAABbS3JaZFCOyXrCdgR6de7Pm+oCLhOPZqDtI2tvv6u7MnBDBuZT5w+/xDUZck3UdYFGijpOn1mEPu+bEBovoX6bHu+fOgkv1RXncRLDdDJ0WoWPD8Hpq12Crtz6ChspkBg1qUgB6wpGjRFqmBUy9OTwK1y3eGM5l09uDGkabcAOeuUbN06NkyHr9dsmM9rPsg8GiikdyZzXFXyiDoeo09LqWl4fk8c/AuKsj05t44/lurGKGR2T2Vpq77L1RXLZtMIcT9fFqkgbz5bemKvxCVHmIH9xm1MvsgGn7OmlXH0FpKaoaZ9uDuMgw0QWcXTZIfOpmYRITEq1cs7QjS/HU12OukuwN+F9XMyg0Tg26/3HaCL7DZ4zUEhiAiR2RWD5Jnze+T7arIPVc7wwyVnx5Fa2wyfjBCdL6jAhqvN6RTyiDT5auP8JnDx8mgZD3i6J3v/WwglQCo+s8YH0KuBMZ67J5Qx3ANxdiZvuDypavxD2Zh171Bk11iyOTlseAXtgzy8fCxv0QSmcVsKEZoSsEfnD7uLisvXYy7k8iv13GC0KB5vlvE8Z1FudWhpfrhS3cExAEzMfFxbA2PK+Rn7J9bLAg5JrIWyGe4qokfMZPfJDY0dzLCsRV/W0P0FwIoVij+KFRvqmxRd6mcd3EmF6kllLG5XAEN2oLvMBtpQVzn/k9zTmbMuBvEvI3NhCA/8H0zDJ+YJ1xTH+qhy+xIMG2kpc2vBDK28KSa08OC+HL0qbtSA08CgZCjRc52Lr5FvUpCjVDknh65FpfLK3Iqflslc4Vt2HvZ+OTAE491AyFiGA4CLzIMbr4c/lfxarALrCWcGQtdPvJyQ4JFrzcxDBXNdXtXuXbUNkP0TsvCdDazzPW/Eblqv/vT7XcrohGvS13XYteQOqwFf2F5WCfIvgvO5/kEiherBnSZgVrk876CtGR/K8CUB2N5wK6xcWznD0bsIrMEU1peXehVJ4I9gC7WL6dB4TPHYG/DmpFGC3fRAhWc4qj2kY3OohjX1ybnw3h0tX+Pk6pF6irbRApK89iHi+ncMiWdtPTy4E6C2TLqf31Lqw5W+5l9sXy6EOvoFlqR7/sEy/oaElU9g0AcMTf5DGWwiCrvISuBi8FO5sYgmjOVlDRQQso+lvH+8RSkpmedF5Z1ikVkyFL1ERd9epm0j7Scu641mPNivyj/qGgi5u/YzDUVHp0sHqwolkpESeL9Qk7jQdsUU+ZmfrQHLKHivNaE6hcJNH1WZ10svf81qwKlnpQYqvkyNW6HyfDeBJfu7yPOIg+4lp0JBwGIWr6x9MiMIUHrsuowE7Ih9oene87BnZs1F/zTfeSfZ14FZPAVmneC1kB47HZalJ0ZJQdOQHNmNw7qgY6m6BmoE/+Ed851ZcYO5Dj71mDUHR0q5SsEDEKtepa5WrUbFViUxUjOo2hl6iboZzETGftQeZOEq9vkrK
+    internal_properties : BQAAAAUAAAClNWxkVkLIC6g0TP68hzidxURMeMXBKEornbHR0dW9KHJF6JAtMfFRKgcXbF++D49AjDxAkVOGwO2dHmQpowCRaMn5RHuZH0/deyjFfiRmSJf5WXOj7SdEbI7oZBX7Yv7vgxK7NeSoZz8kJreczo4OVd4x+u27Ccnkts98B2qA8EeFkejnRXMVIwV89WwB/M1IVGtHi96J1zJkzMFqjYSQ9Pg59WGJNDTy0YQnNfkXaMNMo/elIxwkRTyjl9wD1vCu8WnPrEIlyeyohrXzA0PUCtlTpb2JTKudNm/fJvfvItA6G2GAIM36mR4kY3ajMwHbIz6S5vxPFLyCu3nxM/ky0ucY7yUxGJTg5SC2P0lL5KIPPaYXROwC6oD29cxFInA+FYZaEKfB49ScURFdUOoCCwPTjLvf5tihHnvC4WhO+Y42mFeNEKgkyvqznpJdmsv+llG4lotg+eHIUojICwo9/WhnEMCZ9StOo8pqgwzSMk1XPMmpoijmJgfWWS8Eq5P/1wv0XeUwbkII5uSITUUXniaikqmM5/G0Bh13ZNmOmzv5XE8tiMc1qj4XBuDjpKBYF8tP86LMmKJiRj5lSS4cyzZD0UiK76qwrcM5KdZfv8+v9Bstc1mM30XQsiEW+741qgqW0XNmQSeLatk+5v2POwEg8PFMckup4tTNksuIM1QiPGNtoH+Y/Gx604uTZ1x5tYLteUW6EqziHFt6zj7wsvIBbS1Uf2/aop1R7ZxBly4Wjoq/rDL2raThNpmWWhozwPejEav/LmARgPkThAUKtGc1D0UgqvueeZa0lLPuEjAtxiCROzVHhfiBati0b4OeFwk53W5ulkjtsRpXpo3Zc+19B8ne5SYCjs0tAXYNdfcdVG1Nt9Q58CTfpGI3UzDTm/mU1rkU4btUkn0WdqyRniqn5DaZ91JTiK2d/lUk2XDOf+rE4UKc4fkcAA4mtBSJghPXG2+EJziaOcI4h8hk2pCBTmwQYqvn/j5JU1png+SkDVsmxmCTM//oMFIhpRWdWrfsCjCQ9zrSGvHzwkb4U11gq5nJpbCaWpN9PIkNlqjqk6GHwfHJGXtsGFe/V3hFcopx/0Oz/d42B8WZ+Z5YueLoSFi0ZkbuxhAC+GPJ4+PV1/Iypfd9ablrMHBAJwML8dI6zNYLtSs7IW0HPS7dq7Ws8U+RNCn8mfSMiCh0hzZ1g6+PdG8YPDOeYjqIxW5eoGZrZ4+ELDk9EqA4gEnvCujLRskJk6S3lA2dsZz27Jurg8ht3WkcoqZJWzbj5FBUnlymYWNPNgr6kgMpbZ3OCkyu9NHQQZ+F/HnW6BkSRvMzFf/NvyXMe7i3phyJTyuZah9y9ZjNa6Nzi9ieBkrpGE1q5KYa6GyDnIM9/kF64VBWatRpoct0H1PjwFyEhpq+LNGvUe8BJ1uPsxoa1iDo2Cj0nFStV/dR58nfRlyjoKy0
