@@ -10,7 +10,7 @@ info :
 window :
  name : FE_Choix_Materiel
  identifier : 0x23062c10036dca31
- internal_properties : BQAAAAUAAADpOP5sHW1x0CfHUoNLl1t3FoON1h4mzwvnIYKc4vWB0B0ooSAMQxBwYMkLvl4WeoRpfTeV0jEUfbV/PoCk0hMm2W54ER+hmHDERuPHI0b+WTATk2lK6m4k1lkRgZ5FtzyFETHBBt/uY19cIht5A828in+D0ra/59khwNReUNv/eskcAb+rmdUJtyNtwVN2Fh6A1kSuXHu3MNLryFsl4jX+coNn0N9iCv88LeFAmTegX6Xnh0jtguIPaJ8Um67q/o2yJV5P1NNpI8A9jwf8v1FfpMEb8CXXpzEk/830Q/hmKhOFC2MRCXFVsJMhHZADACKma829zRp5QBnDpqZ1P5jW8vgKU22Aq41C/mh7aeHKZOVfIy/HpNQvCC6+rKW+DEbpV58jznLvkyjrQZ71PCeuX0W97BRiP9qCmsRjm2pJukDIOYiKHI5LEFsDnPqLljQ4zurNPAl3mLsCBSOdb//dvQLfwnor/Hz7jUv8FOkjj1nYBiX4zgMH5nZFOkI9B4umZUCw5HKSAvyrN8TDev9bHNp46XXZu5Qp+VBH/x2b4ySBXVo1SYmr1oiHoNxRhSj1v0Qt5DueCQZ9Lu685Gxb2/CJS2W3Sh2LzAN20KAn30g3wZDf71z/F+MNuN6LJhoF2iszPZd+k1sU/qvQbTVP9uNvzPRRyYGkWYvMQV0/xSoZ+m+piMtVruTL6fm4fV0XrU5RIAu4SpTBX0LM/8VVtr0mYw/GTSKpCIZ/oQPPDGKTRtgbfQojDWj8x6N0FrI9GS3ZRKzZ6uJi18suQRJnH1bAtluXnL8Eq+XlH/VmO5pt3hSKTK+blpXN6XFKXLo9p1CtNjjBQ8iCPK8n3lzAdVi7uZOWGa4j8swE9ThTDXTYW5Eh9WYSUGubiX+6kiD5S+KR
+ internal_properties : BQAAAAUAAACqOmqED+78oBjYwwBaB1aQjehtNhAK97Kwh3Pzj6OxF8EoEUOCXBVuo4rMcg4ux0us/XUW3kTr4GHxCFZgcAv9y0dY1OlINBDMwL68/sXZ/790IQ46UPvabXTbBv2X6kyxa+Jnb6omH5TBUVGVypTpb7Occ5qqUiRVeauOmnQo4X7RDw8cw2DzrWAy7h4T61PPSbxwJqaae8LoYh0WLOWuKz3fbU+TPZfS8wmZg4+n86xe9LffzrXDbRz3bC6ckoHXt3eEvZq0nq9pYV4sDdqngV2sljGCFbz0+islSVNf0c2uJ2MLu/1AgQ9bb7PXwiINhjfzysgjzpBTleGPnBBixWnk6E+R38eLmWXHwMOuFp89+ujAVQfL8SlSL2+IGB+yshawK8Nu5PZegcws0iI793kkkYCAfhMz+kXHo/VC5C+HL5grBD8QTPD15vLlzdcDjlSxev2d3OKrDhWe379Erc3gd9zfrsH8d944mwP1IGuv795EaMeWkWAYjscJzW7oHjuN+op413FZNphQPOk0VCOLsH/5Ca/kOzvRDHnh7g5IZoUxQ0Ms13AgXO91k5ctnnmwWuNS7stnv0IVAuC8W6V89PnRYl4Ylo4msXbtVPamxkUvCVJA1EE6ytnpfr/L6WQKYaFqblYsj1/T4fM0pKQ6Y8JVlZptlzjyAJW94Oasr7RZRo1Izdoiae4kp7jTqOua5OF0P5mzqGo0Xg43G0MqbaDGkzCVnuW3JY7Bd/mF8bUJc6ro7yAfFaNYozI9hG5yrWigw4Uq81z2vbkt/Nlt2U0hLso2sAg0dByB/pxZ39sF0BBiHt3tPPiG3OS6TNyjay90vE0HpaFuFPY1VwAXaG06nXDqgiCuawpUIoCDBh+B8P0H2b2f7ANYZHWbF8eeFKuaI+qJ38ArPSNy36d9kAz2MQ==
  controls :
   -
     name : BT_FE_ChMat_retour
@@ -22,8 +22,13 @@ window :
      p_codes :
       -
         code : |1+
+         // ouverture fenêtre d'accueil
+         // fermeture fenêtre choix matériel
+         Close(FE_Choix_Materiel)
          
          open(FE_Acceuil)
+         
+         
         type : 18
       -
         type : 161
@@ -45,8 +50,12 @@ window :
      type_code : 4
      p_codes :
       -
-        code : |1-
+        code : |1+
+         // ouverture fenêtre catégories
+         // fermeture fenêtre choix matériel
+         
          Open(FE_Categories)
+         Close(FE_Choix_Materiel)
         type : 18
       -
         type : 161
@@ -61,7 +70,12 @@ window :
      p_codes :
       -
         code : |1+
+         // ouverture fenêtre type de ski
+         // fermeture fenêtre choix matériel
+         
+         
          Open(FE_Type_de_ski)
+         close(FE_Choix_Materiel)
         type : 18
       -
         type : 161
@@ -75,8 +89,12 @@ window :
      type_code : 4
      p_codes :
       -
-        code : |1-
+        code : |1+
+         // ouverture fenêtre produits
+         // fermeture fenêtre choix matériel
+         
          Open(FE_Produitss)
+         close(FE_Choix_Materiel)
         type : 18
       -
         type : 161
